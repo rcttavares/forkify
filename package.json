@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "acorn": "^8.11.2",
-    "axios": "^1.6.0",
+    "axios": "^1.7.4",
     "babel-polyfill": "^6.26.0",
     "elliptic": "^6.5.3",
     "fractional": "^1.0.0",
