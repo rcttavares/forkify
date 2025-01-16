@@ -35,5 +35,8 @@
     "serialize-javascript": "^6.0.1",
     "uniqid": "^5.2.0",
     "websocket-extensions": "^0.1.4"
+  },
+  "resolutions": {
+    "json5": "2.2.3"
   }
 }
