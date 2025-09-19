@@ -2,10 +2,11 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: ['babel-polyfill', './src/js/index.js'],
+  entry: ['core-js/stable', './src/js/index.js'],
   output: {
     filename: 'js/bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    clean: true,
   },
   module: {
     rules: [
@@ -27,6 +28,7 @@ module.exports = {
     },
     compress: true,
     port: 9000,
+    open: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
