@@ -30,7 +30,7 @@
     "lodash": "^4.17.23",
     "minimist": "^1.2.5",
     "querystringify": "^2.1.1",
-    "serialize-javascript": "^6.0.1",
+    "serialize-javascript": "^7.0.3",
     "uniqid": "^5.2.0",
     "websocket-extensions": "^0.1.4"
   },
