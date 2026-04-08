@@ -39,10 +39,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fractional", "npm:1.0.0"],\
             ["html-webpack-plugin", "virtual:fd23f15d1e96119697fb4e19b568151843ca9a64211943b805a3bcb8ce034545b559ea03d214df04db098daed35f22def1e88e70e3b06a74d820f2ee9a8eb1dd#npm:5.6.4"],\
             ["kind-of", "npm:6.0.3"],\
-            ["lodash", "npm:4.17.23"],\
+            ["lodash", "npm:4.18.1"],\
             ["minimist", "npm:1.2.8"],\
             ["querystringify", "npm:2.2.0"],\
-            ["serialize-javascript", "npm:7.0.3"],\
+            ["serialize-javascript", "npm:7.0.5"],\
             ["uniqid", "npm:5.4.0"],\
             ["webpack", "virtual:fd23f15d1e96119697fb4e19b568151843ca9a64211943b805a3bcb8ce034545b559ea03d214df04db098daed35f22def1e88e70e3b06a74d820f2ee9a8eb1dd#npm:5.104.1"],\
             ["webpack-cli", "virtual:fd23f15d1e96119697fb4e19b568151843ca9a64211943b805a3bcb8ce034545b559ea03d214df04db098daed35f22def1e88e70e3b06a74d820f2ee9a8eb1dd#npm:5.1.4"],\
@@ -4422,10 +4422,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fractional", "npm:1.0.0"],\
             ["html-webpack-plugin", "virtual:fd23f15d1e96119697fb4e19b568151843ca9a64211943b805a3bcb8ce034545b559ea03d214df04db098daed35f22def1e88e70e3b06a74d820f2ee9a8eb1dd#npm:5.6.4"],\
             ["kind-of", "npm:6.0.3"],\
-            ["lodash", "npm:4.17.23"],\
+            ["lodash", "npm:4.18.1"],\
             ["minimist", "npm:1.2.8"],\
             ["querystringify", "npm:2.2.0"],\
-            ["serialize-javascript", "npm:7.0.3"],\
+            ["serialize-javascript", "npm:7.0.5"],\
             ["uniqid", "npm:5.4.0"],\
             ["webpack", "virtual:fd23f15d1e96119697fb4e19b568151843ca9a64211943b805a3bcb8ce034545b559ea03d214df04db098daed35f22def1e88e70e3b06a74d820f2ee9a8eb1dd#npm:5.104.1"],\
             ["webpack-cli", "virtual:fd23f15d1e96119697fb4e19b568151843ca9a64211943b805a3bcb8ce034545b559ea03d214df04db098daed35f22def1e88e70e3b06a74d820f2ee9a8eb1dd#npm:5.1.4"],\
@@ -5249,6 +5249,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lodash-npm-4.17.23-50bdb1c01a-7daad39758.zip/node_modules/lodash/",\
           "packageDependencies": [\
             ["lodash", "npm:4.17.23"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:4.18.1", {\
+          "packageLocation": "./.yarn/cache/lodash-npm-4.18.1-a64c3070ac-bb5f5b49aa.zip/node_modules/lodash/",\
+          "packageDependencies": [\
+            ["lodash", "npm:4.18.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6375,10 +6382,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["serialize-javascript", [\
-        ["npm:7.0.3", {\
-          "packageLocation": "./.yarn/cache/serialize-javascript-npm-7.0.3-d003e68636-c54f78f412.zip/node_modules/serialize-javascript/",\
+        ["npm:7.0.5", {\
+          "packageLocation": "./.yarn/cache/serialize-javascript-npm-7.0.5-0078177797-9e5f4c234c.zip/node_modules/serialize-javascript/",\
           "packageDependencies": [\
-            ["serialize-javascript", "npm:7.0.3"]\
+            ["serialize-javascript", "npm:7.0.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6750,7 +6757,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["esbuild", null],\
             ["jest-worker", "npm:27.5.1"],\
             ["schema-utils", "npm:4.3.3"],\
-            ["serialize-javascript", "npm:7.0.3"],\
+            ["serialize-javascript", "npm:7.0.5"],\
             ["terser", "npm:5.44.0"],\
             ["uglify-js", null],\
             ["webpack", "virtual:fd23f15d1e96119697fb4e19b568151843ca9a64211943b805a3bcb8ce034545b559ea03d214df04db098daed35f22def1e88e70e3b06a74d820f2ee9a8eb1dd#npm:5.104.1"]\
