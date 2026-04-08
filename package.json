@@ -27,10 +27,10 @@
     "core-js": "^3.38.1",
     "fractional": "^1.0.0",
     "kind-of": "^6.0.3",
-    "lodash": "^4.17.23",
+    "lodash": "^4.18.1",
     "minimist": "^1.2.5",
     "querystringify": "^2.1.1",
-    "serialize-javascript": "^7.0.3",
+    "serialize-javascript": "^7.0.5",
     "uniqid": "^5.2.0",
     "websocket-extensions": "^0.1.4"
   },
@@ -38,6 +38,6 @@
     "json5": "^2.2.3",
     "@babel/runtime": "^7.26.10",
     "@babel/helpers": "^7.26.0",
-    "serialize-javascript": "^7.0.3"
+    "serialize-javascript": "^7.0.5"
   }
 }
