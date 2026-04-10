@@ -73,6 +73,34 @@ The command above runs `webpack-dev-server` and opens the app in your browser.
 - `yarn start`: starts the development server
 - `yarn dev`: builds bundle in development mode
 - `yarn build`: builds bundle in production mode
+- `yarn deploy`: builds and publishes `dist` to GitHub Pages
+
+## Deploy to GitHub Pages
+
+### 1) Make sure your repository is on GitHub
+
+Push your project to a GitHub repository (for example: `https://github.com/<username>/forkify`).
+
+### 2) Run deploy
+
+```bash
+yarn deploy
+```
+
+This command runs the production build and publishes the `dist` folder to the `gh-pages` branch.
+
+### 3) Enable GitHub Pages
+
+In your GitHub repository:
+
+1. Go to **Settings** -> **Pages**.
+2. In **Build and deployment**, set **Source** to **Deploy from a branch**.
+3. Select branch **gh-pages** and folder **/(root)**.
+4. Save.
+
+Your production URL will be:
+
+`https://<username>.github.io/<repository-name>/`
 
 ## App Flow
 
