@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: ['core-js/stable', './src/js/index.js'],
+  entry: './src/js/index.js',
   output: {
     filename: 'js/bundle.js',
     path: path.resolve(__dirname, 'dist'),
@@ -13,12 +13,7 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env'],
-          },
-        },
+        use: 'babel-loader',
       },
     ],
   },

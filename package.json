@@ -38,6 +38,7 @@
     "websocket-extensions": "^0.1.4"
   },
   "resolutions": {
+    "http-proxy-middleware": "^3.0.6",
     "json5": "^2.2.3",
     "@babel/runtime": "^7.26.10",
     "@babel/helpers": "^7.26.0",
