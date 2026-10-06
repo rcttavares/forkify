@@ -13,7 +13,6 @@
   "author": "Rafael Tavares",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.26.2",
     "@babel/core": "^7.29.6",
     "@babel/preset-env": "^7.26.0",
     "@babel/runtime": "^7.26.10",
@@ -21,8 +20,8 @@
     "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.5.3",
     "webpack": "^5.104.1",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.2.6"
+    "webpack-cli": "^7.2.3",
+    "webpack-dev-server": "^6.0.0"
   },
   "dependencies": {
     "acorn": "^8.11.2",
@@ -38,17 +37,17 @@
     "websocket-extensions": "^0.1.4"
   },
   "resolutions": {
-    "http-proxy-middleware": "^3.0.6",
+    "http-proxy-middleware": "^4.2.0",
     "json5": "^2.2.3",
     "@babel/runtime": "^7.26.10",
     "@babel/helpers": "^7.26.0",
     "serialize-javascript": "^7.0.5",
     "lodash": "^4.18.1",
-    "qs": "^6.15.2",
+    "qs": "^6.16.0",
     "ws": "^8.20.1",
     "uuid": "^14.0.0",
-    "brace-expansion": "^5.0.9",
+    "brace-expansion": "^5.0.12",
     "body-parser": "^1.20.6",
-    "fast-uri": "^3.1.7"
+    "fast-uri": "^3.1.8"
   }
 }
