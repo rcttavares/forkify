@@ -1,12 +1,13 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/js/index.js',
   output: {
     filename: 'js/bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: false,
+    clean: true,
   },
   module: {
     rules: [
@@ -19,7 +20,7 @@ module.exports = {
   },
   devServer: {
     static: {
-      directory: path.join(__dirname, 'dist'),
+      directory: path.join(__dirname, 'public'),
     },
     compress: true,
     port: 9000,
@@ -29,6 +30,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: './src/index.html',
+    }),
+    new CopyWebpackPlugin({
+      patterns: [{ from: 'public' }],
     }),
   ],
   mode: 'development',
